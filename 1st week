@@ -13,3 +13,40 @@ fun main() {
 }
 
 // 주석이야~
+
+/**
+ * You can edit, run, and share this code.
+ * play.kotlinlang.org
+ */
+
+import kotlin.math.PI //수학함수를 사용하기 위한 코드 
+
+fun main() {
+    println("-----------------숫자표시하기----------------")
+    println(1)
+    println(2)
+    println(3)
+    println("-----------문자와 숫자 함께 표시하기-----------")
+    println("1이 출력됩니다->"+1)
+    println("2이 출력됩니다->"+2)
+    println("3이 출력됩니다->"+3)
+    println("-----------문자와 숫자 함께 표시하기-----------")
+    println("중간에 표시하기위해선 이렇게 진행하면됩니다.\n"+"안녕하세요, 일병 박승철입니다.\n"+97+"년생입니다")
+// \n은 줄넘김
+
+	val integer:Int = 10
+	// interger = 20 문법에러(syntax error) 표시됨
+    var mutablleinteger: Int = 30
+    // interger = 20 문법에러 발생 안함
+
+    println(integer)
+    println(mutablleinteger)
+    
+    var string: String = "test"
+    //string = "test"+" clasue" -> 이 코드도 문법에러 발생 안함
+    
+    println(string)
+    
+	println(PI)
+    
+}
